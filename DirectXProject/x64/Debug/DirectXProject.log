@@ -1,0 +1,30 @@
+﻿  GGBlur.cpp
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,25): warning C4838: 'float' から 'UINT' への変換には縮小変換が必要です
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,25): warning C4244: '初期化中': 'float' から 'UINT' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,47): warning C4838: 'double' から 'UINT' への変換には縮小変換が必要です
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,47): warning C4244: '初期化中': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,60): warning C4838: 'double' から 'UINT' への変換には縮小変換が必要です
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,60): warning C4244: '初期化中': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+  GGDeferred.cpp
+  GGDepthFade.cpp
+  GGDepthShadow.cpp
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGDepthShadow.cpp(30,69): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGDepthShadow.cpp(30,45): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  GGLevelMain.cpp
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(20,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(158,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(176,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(176,77): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(177,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(177,78): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(178,55): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(178,93): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(179,55): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(179,94): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  GGLight.cpp
+  GGPointLight.cpp
+  GGSpotLight.cpp
+  Main.cpp
+  ShaderList.cpp
+  コードを生成中...
+  DirectXProject.vcxproj -> C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\x64\Debug\DirectXProject.exe

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d90e9305-071e-4685-a79b-5d1e03d69dd9}</ProjectGuid>
+    <RootNamespace>My09ShaderBase</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\Autodesk\FBX\FBX SDK\2020.0.1\include;$(ProjectDir);$(ProjectDir)Effekseer;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Effekseer;C:\Program Files\Autodesk\FBX\FBX SDK\2020.0.1\lib\vs2017\x64\debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>NotSet</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <FxCompile>
+      <ObjectFileOutput>$(ProjectDir)Assets\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>NotSet</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>NotSet</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <FxCompile>
+      <ObjectFileOutput>$(ProjectDir)Assets\%(Filename).cso</ObjectFileOutput>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <CustomBuildStep>
+      <Command>call "$(SolutionDir)Tools\MakeShaderList.js"</Command>
+    </CustomBuildStep>
+    <PreBuildEvent>
+      <Command>Tools\MakeShader\MakeShaderList.js</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>NotSet</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="App\GG31\GGBlur.cpp" />
+    <ClCompile Include="App\GG31\GGDeferred.cpp" />
+    <ClCompile Include="App\GG31\GGDepthFade.cpp" />
+    <ClCompile Include="App\GG31\GGDepthShadow.cpp" />
+    <ClCompile Include="App\GG31\GGLevelMain.cpp" />
+    <ClCompile Include="App\GG31\GGLight.cpp" />
+    <ClCompile Include="App\GG31\GGLightCamera.cpp" />
+    <ClCompile Include="App\GG31\GGPointLight.cpp" />
+    <ClCompile Include="App\GG31\GGSpotLight.cpp" />
+    <ClCompile Include="App\Main.cpp" />
+    <ClCompile Include="App\ShaderScene.cpp" />
+    <ClCompile Include="App\TangentModel.cpp" />
+    <ClCompile Include="Shader\ShaderList.cpp" />
+    <ClCompile Include="Startup.cpp" />
+    <ClCompile Include="System\Camera\Camera2D.cpp" />
+    <ClCompile Include="System\Camera\Camera.cpp" />
+    <ClCompile Include="System\Camera\CameraDebug.cpp" />
+    <ClCompile Include="System\Camera\CameraManager.cpp" />
+    <ClCompile Include="System\Collision.cpp" />
+    <ClCompile Include="System\Debug\Debug.cpp" />
+    <ClCompile Include="System\Debug\Geometory.cpp" />
+    <ClCompile Include="System\Debug\Log.cpp" />
+    <ClCompile Include="System\Debug\Manipulator.cpp" />
+    <ClCompile Include="System\Debug\Menu.cpp" />
+    <ClCompile Include="System\Debug\PrintScreen.cpp" />
+    <ClCompile Include="System\FBX\FBXLoadAnimation.cpp" />
+    <ClCompile Include="System\FBX\FBXLoadBone.cpp" />
+    <ClCompile Include="System\FBX\FBXLoader.cpp" />
+    <ClCompile Include="System\FBX\FBXLoadMaterial.cpp" />
+    <ClCompile Include="System\FBX\FBXLoadMesh.cpp" />
+    <ClCompile Include="System\Graphics\BlendState.cpp" />
+    <ClCompile Include="System\Graphics\DepthStencilState.cpp" />
+    <ClCompile Include="System\Graphics\DirectX.cpp" />
+    <ClCompile Include="System\Graphics\Graphics.cpp" />
+    <ClCompile Include="System\Graphics\DXBuffer.cpp" />
+    <ClCompile Include="System\Graphics\Font.cpp" />
+    <ClCompile Include="System\Graphics\SamplerState.cpp" />
+    <ClCompile Include="System\Graphics\Shader.cpp" />
+    <ClCompile Include="System\Graphics\Text.cpp" />
+    <ClCompile Include="System\Input.cpp" />
+    <ClCompile Include="System\Math\Math.cpp" />
+    <ClCompile Include="System\Scene\SampleScene.cpp" />
+    <ClCompile Include="System\Scene\SceneBase.cpp" />
+    <ClCompile Include="System\Scene\SceneManager.cpp" />
+    <ClCompile Include="System\Texture\DepthStencil.cpp" />
+    <ClCompile Include="System\Texture\RenderTarget.cpp" />
+    <ClCompile Include="System\Texture\Texture.cpp" />
+    <ClCompile Include="System\Texture\TextureFactory.cpp" />
+    <ClCompile Include="System\Texture\TextureFilter.cpp" />
+    <ClCompile Include="System\Texture\TextureFilterSDF.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\GG31\GGBlur.h" />
+    <ClInclude Include="App\GG31\GGDeferred.h" />
+    <ClInclude Include="App\GG31\GGDepthFade.h" />
+    <ClInclude Include="App\GG31\GGDepthShadow.h" />
+    <ClInclude Include="App\GG31\GGLevelMain.h" />
+    <ClInclude Include="App\GG31\GGLight.h" />
+    <ClInclude Include="App\GG31\GGLightCamera.h" />
+    <ClInclude Include="App\GG31\GGPointLight.h" />
+    <ClInclude Include="App\GG31\GGSpotLight.h" />
+    <ClInclude Include="App\Main.h" />
+    <ClInclude Include="App\ShaderScene.h" />
+    <ClInclude Include="App\TangentModel.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Shader\ShaderList.h" />
+    <ClInclude Include="System\Camera\Camera2D.h" />
+    <ClInclude Include="System\Camera\Camera.h" />
+    <ClInclude Include="System\Camera\CameraDebug.h" />
+    <ClInclude Include="System\Camera\CameraManager.hpp" />
+    <ClInclude Include="System\Collision.h" />
+    <ClInclude Include="System\Debug\Debug.h" />
+    <ClInclude Include="System\Debug\Geometory.h" />
+    <ClInclude Include="System\Debug\Log.h" />
+    <ClInclude Include="System\Debug\Manipulator.h" />
+    <ClInclude Include="System\Debug\Menu.h" />
+    <ClInclude Include="System\Debug\PrintScreen.h" />
+    <ClInclude Include="System\FBX\FBXLoadAnimation.h" />
+    <ClInclude Include="System\FBX\FBXLoadBone.h" />
+    <ClInclude Include="System\FBX\FBXLoader.h" />
+    <ClInclude Include="System\FBX\FBXLoadMaterial.h" />
+    <ClInclude Include="System\FBX\FBXLoadMesh.h" />
+    <ClInclude Include="System\Graphics\BlendState.h" />
+    <ClInclude Include="System\Graphics\DepthStencilState.h" />
+    <ClInclude Include="System\Graphics\DirectX.h" />
+    <ClInclude Include="System\Graphics\Graphics.h" />
+    <ClInclude Include="System\Graphics\DXBuffer.h" />
+    <ClInclude Include="System\Graphics\Font.h" />
+    <ClInclude Include="System\Graphics\SamplerState.h" />
+    <ClInclude Include="System\Graphics\Shader.h" />
+    <ClInclude Include="System\Graphics\Text.h" />
+    <ClInclude Include="System\Input.h" />
+    <ClInclude Include="System\Macro.h" />
+    <ClInclude Include="System\Math\Math.h" />
+    <ClInclude Include="System\Scene\SampleScene.h" />
+    <ClInclude Include="System\Scene\SceneBase.h" />
+    <ClInclude Include="System\Scene\SceneManager.hpp" />
+    <ClInclude Include="System\Singleton.hpp" />
+    <ClInclude Include="System\Texture\DepthStencil.h" />
+    <ClInclude Include="System\Texture\RenderTarget.h" />
+    <ClInclude Include="System\Texture\Texture.h" />
+    <ClInclude Include="System\Texture\TextureFactory.h" />
+    <ClInclude Include="System\Texture\TextureFilter.h" />
+    <ClInclude Include="System\Texture\TextureFilterSDF.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\BlurPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\DeferredPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\DeferredWritePS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\DeferredWriteVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthFadePS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthShadowPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthShadowVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthWritePS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthWriteVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\ObjectColorPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\PointLightPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\RenderShadowPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\SamplePS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\SampleVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\ScreenVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\SpotLightPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\WorldPosVS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

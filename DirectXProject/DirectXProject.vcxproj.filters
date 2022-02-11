@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{4e17ff4f-a004-4e4a-9470-879b9af60429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{76d7d9cf-96c4-4ff5-a5f6-7dfd24ef09cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\App">
+      <UniqueIdentifier>{2c3db676-bf36-4efc-a80a-29f79c26d16f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\App">
+      <UniqueIdentifier>{375453a1-ead7-471e-9fe9-85ec8b5e9c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\PixelShader">
+      <UniqueIdentifier>{a9755fd2-e8f8-4e2e-854e-68fcfb6a9b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\VertexShader">
+      <UniqueIdentifier>{e4c96e83-672c-4720-aa96-8ee0c9525558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\FBX">
+      <UniqueIdentifier>{4df06ddd-9089-4889-a220-c39188e6b41b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\FBX">
+      <UniqueIdentifier>{21c4f333-5ad5-44f1-90b8-b9cbfea0008e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Camera">
+      <UniqueIdentifier>{36c7ced8-2c6a-48b3-9e0e-1449cbfa04ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Camera">
+      <UniqueIdentifier>{c4c304ca-ece3-437a-a66a-db7d0d889bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Scene">
+      <UniqueIdentifier>{3c6509d2-6311-445a-b8a1-4faa1d76f5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Scene">
+      <UniqueIdentifier>{22c95cd1-a784-4acd-88bc-d963fdf7d31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Graphics">
+      <UniqueIdentifier>{f634100b-94c9-426f-af05-f84dd4faf4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Graphics">
+      <UniqueIdentifier>{456210d8-a0a4-4f2c-a9bb-ab257dcbfdbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Texture">
+      <UniqueIdentifier>{61a79625-9404-47eb-9811-486dee8f043a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Texture">
+      <UniqueIdentifier>{0ea0fd7f-b2cc-452e-b9bd-69871aaf0a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Debug">
+      <UniqueIdentifier>{e633d8fe-1b47-4a78-ac36-91fdc000e46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Debug">
+      <UniqueIdentifier>{98046236-3484-481c-9418-5d14d6811cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Math">
+      <UniqueIdentifier>{394c6a85-9b25-4cff-9e05-a08890173d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Math">
+      <UniqueIdentifier>{62a8f78b-037c-4b2e-a58d-4d3954149610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\App\GG31">
+      <UniqueIdentifier>{6556011e-a439-4b51-8d82-a1f3b92e2898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\App\GG31">
+      <UniqueIdentifier>{ae6c5e7c-519f-4650-9116-b4f357136ca5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Startup.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Input.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Main.cpp">
+      <Filter>ソース ファイル\App</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Camera\Camera.cpp">
+      <Filter>ソース ファイル\System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Camera\CameraDebug.cpp">
+      <Filter>ソース ファイル\System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Camera\CameraManager.cpp">
+      <Filter>ソース ファイル\System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Graphics\Graphics.cpp">
+      <Filter>ソース ファイル\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Graphics\DXBuffer.cpp">
+      <Filter>ソース ファイル\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Graphics\Shader.cpp">
+      <Filter>ソース ファイル\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Graphics\Text.cpp">
+      <Filter>ソース ファイル\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Graphics\Font.cpp">
+      <Filter>ソース ファイル\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Scene\SampleScene.cpp">
+      <Filter>ソース ファイル\System\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Scene\SceneBase.cpp">
+      <Filter>ソース ファイル\System\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Scene\SceneManager.cpp">
+      <Filter>ソース ファイル\System\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="App\ShaderScene.cpp">
+      <Filter>ソース ファイル\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\TangentModel.cpp">
+      <Filter>ソース ファイル\App</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Collision.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Texture\Texture.cpp">
+      <Filter>ソース ファイル\System\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Texture\TextureFactory.cpp">
+      <Filter>ソース ファイル\System\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Texture\DepthStencil.cpp">
+      <Filter>ソース ファイル\System\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Texture\RenderTarget.cpp">
+      <Filter>ソース ファイル\System\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Texture\TextureFilterSDF.cpp">
+      <Filter>ソース ファイル\System\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="System\FBX\FBXLoadAnimation.cpp">
+      <Filter>ソース ファイル\System\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="System\FBX\FBXLoadBone.cpp">
+      <Filter>ソース ファイル\System\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="System\FBX\FBXLoadMaterial.cpp">
+      <Filter>ソース ファイル\System\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="System\FBX\FBXLoadMesh.cpp">
+      <Filter>ソース ファイル\System\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Texture\TextureFilter.cpp">
+      <Filter>ソース ファイル\System\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="System\FBX\FBXLoader.cpp">
+      <Filter>ソース ファイル\System\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Graphics\SamplerState.cpp">
+      <Filter>ソース ファイル\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Graphics\DirectX.cpp">
+      <Filter>ソース ファイル\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Debug\Debug.cpp">
+      <Filter>ソース ファイル\System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Debug\Geometory.cpp">
+      <Filter>ソース ファイル\System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Debug\Log.cpp">
+      <Filter>ソース ファイル\System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Debug\Menu.cpp">
+      <Filter>ソース ファイル\System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Debug\PrintScreen.cpp">
+      <Filter>ソース ファイル\System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Debug\Manipulator.cpp">
+      <Filter>ソース ファイル\System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Graphics\DepthStencilState.cpp">
+      <Filter>ソース ファイル\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Math\Math.cpp">
+      <Filter>ソース ファイル\System\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="App\GG31\GGLevelMain.cpp">
+      <Filter>ソース ファイル\App\GG31</Filter>
+    </ClCompile>
+    <ClCompile Include="App\GG31\GGDepthShadow.cpp">
+      <Filter>ソース ファイル\App\GG31</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Camera\Camera2D.cpp">
+      <Filter>ソース ファイル\System\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="App\GG31\GGLightCamera.cpp">
+      <Filter>ソース ファイル\App\GG31</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\ShaderList.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="App\GG31\GGDepthFade.cpp">
+      <Filter>ソース ファイル\App\GG31</Filter>
+    </ClCompile>
+    <ClCompile Include="App\GG31\GGLight.cpp">
+      <Filter>ソース ファイル\App\GG31</Filter>
+    </ClCompile>
+    <ClCompile Include="App\GG31\GGPointLight.cpp">
+      <Filter>ソース ファイル\App\GG31</Filter>
+    </ClCompile>
+    <ClCompile Include="App\GG31\GGSpotLight.cpp">
+      <Filter>ソース ファイル\App\GG31</Filter>
+    </ClCompile>
+    <ClCompile Include="App\GG31\GGDeferred.cpp">
+      <Filter>ソース ファイル\App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\GG31\GGBlur.cpp">
+      <Filter>ソース ファイル\App\GG31</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Graphics\BlendState.cpp">
+      <Filter>ソース ファイル\System\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defines.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Main.h">
+      <Filter>ヘッダー ファイル\App</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Camera\Camera.h">
+      <Filter>ヘッダー ファイル\System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Camera\CameraDebug.h">
+      <Filter>ヘッダー ファイル\System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Camera\CameraManager.hpp">
+      <Filter>ヘッダー ファイル\System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Graphics\Graphics.h">
+      <Filter>ヘッダー ファイル\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Graphics\DXBuffer.h">
+      <Filter>ヘッダー ファイル\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Graphics\Shader.h">
+      <Filter>ヘッダー ファイル\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Graphics\Text.h">
+      <Filter>ヘッダー ファイル\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Graphics\Font.h">
+      <Filter>ヘッダー ファイル\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Scene\SampleScene.h">
+      <Filter>ヘッダー ファイル\System\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Scene\SceneBase.h">
+      <Filter>ヘッダー ファイル\System\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Scene\SceneManager.hpp">
+      <Filter>ヘッダー ファイル\System\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Singleton.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="App\ShaderScene.h">
+      <Filter>ヘッダー ファイル\App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TangentModel.h">
+      <Filter>ヘッダー ファイル\App</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Collision.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Texture\Texture.h">
+      <Filter>ヘッダー ファイル\System\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Texture\TextureFactory.h">
+      <Filter>ヘッダー ファイル\System\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Texture\DepthStencil.h">
+      <Filter>ヘッダー ファイル\System\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Texture\RenderTarget.h">
+      <Filter>ヘッダー ファイル\System\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Texture\TextureFilter.h">
+      <Filter>ヘッダー ファイル\System\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Texture\TextureFilterSDF.h">
+      <Filter>ヘッダー ファイル\System\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="System\FBX\FBXLoader.h">
+      <Filter>ヘッダー ファイル\System\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="System\FBX\FBXLoadMaterial.h">
+      <Filter>ヘッダー ファイル\System\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="System\FBX\FBXLoadMesh.h">
+      <Filter>ヘッダー ファイル\System\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="System\FBX\FBXLoadAnimation.h">
+      <Filter>ヘッダー ファイル\System\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="System\FBX\FBXLoadBone.h">
+      <Filter>ヘッダー ファイル\System\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Graphics\SamplerState.h">
+      <Filter>ヘッダー ファイル\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Graphics\DirectX.h">
+      <Filter>ヘッダー ファイル\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Macro.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Debug\Debug.h">
+      <Filter>ヘッダー ファイル\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Debug\Geometory.h">
+      <Filter>ヘッダー ファイル\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Debug\Log.h">
+      <Filter>ヘッダー ファイル\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Debug\Menu.h">
+      <Filter>ヘッダー ファイル\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Debug\PrintScreen.h">
+      <Filter>ヘッダー ファイル\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Debug\Manipulator.h">
+      <Filter>ヘッダー ファイル\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Graphics\DepthStencilState.h">
+      <Filter>ヘッダー ファイル\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Math\Math.h">
+      <Filter>ヘッダー ファイル\System\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="App\GG31\GGDepthShadow.h">
+      <Filter>ヘッダー ファイル\App\GG31</Filter>
+    </ClInclude>
+    <ClInclude Include="App\GG31\GGLevelMain.h">
+      <Filter>ヘッダー ファイル\App\GG31</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Camera\Camera2D.h">
+      <Filter>ヘッダー ファイル\System\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="App\GG31\GGLightCamera.h">
+      <Filter>ヘッダー ファイル\App\GG31</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ShaderList.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="App\GG31\GGDepthFade.h">
+      <Filter>ヘッダー ファイル\App\GG31</Filter>
+    </ClInclude>
+    <ClInclude Include="App\GG31\GGLight.h">
+      <Filter>ヘッダー ファイル\App\GG31</Filter>
+    </ClInclude>
+    <ClInclude Include="App\GG31\GGPointLight.h">
+      <Filter>ヘッダー ファイル\App\GG31</Filter>
+    </ClInclude>
+    <ClInclude Include="App\GG31\GGSpotLight.h">
+      <Filter>ヘッダー ファイル\App\GG31</Filter>
+    </ClInclude>
+    <ClInclude Include="App\GG31\GGDeferred.h">
+      <Filter>ヘッダー ファイル\App\GG31</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Graphics\BlendState.h">
+      <Filter>ヘッダー ファイル\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="App\GG31\GGBlur.h">
+      <Filter>ヘッダー ファイル\App\GG31</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\SamplePS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\SampleVS.hlsl">
+      <Filter>リソース ファイル\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthShadowPS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthShadowVS.hlsl">
+      <Filter>リソース ファイル\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthWritePS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\ScreenVS.hlsl">
+      <Filter>リソース ファイル\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\RenderShadowPS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthWriteVS.hlsl">
+      <Filter>リソース ファイル\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthFadePS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PointLightPS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\ObjectColorPS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\WorldPosVS.hlsl">
+      <Filter>リソース ファイル\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\SpotLightPS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DeferredPS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DeferredWritePS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DeferredWriteVS.hlsl">
+      <Filter>リソース ファイル\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\BlurPS.hlsl">
+      <Filter>リソース ファイル\PixelShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
