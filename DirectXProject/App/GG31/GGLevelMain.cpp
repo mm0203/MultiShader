@@ -12,6 +12,7 @@
 #include <App/GG31/GGSpotLight.h>
 #include <App/GG31/GGDeferred.h>
 #include <App/GG31/GGBlur.h>
+#include <App/GG31/GGDepthOfView.h>
 
 HRESULT GGLevelMain::Load()
 {
@@ -32,6 +33,7 @@ HRESULT GGLevelMain::Load()
 	table.headers.push_back("SpotLight");
 	table.headers.push_back("Deferred");
 	table.headers.push_back("Blur");
+	table.headers.push_back("DepthOfView");
 	table.no = sceneNo;
 	auto changeFunc = []()
 	{
@@ -44,6 +46,7 @@ HRESULT GGLevelMain::Load()
 		case 3: SCENE->LoadSub<GGSpotLight>(); break;
 		case 4: SCENE->LoadSub<GGDeferred>(); break;
 		case 5: SCENE->LoadSub<GGBlur>(); break;
+		case 6: SCENE->LoadSub<GGDepthOfView>(); break;
 		}
 	};
 	MENU->Registry("Scene/Kind", table);

@@ -69,7 +69,7 @@ HRESULT GGBlur::Load()
 
 	for (int i = 0; i < BLUR_MAX; ++i)
 	{
-		m_ppRenderTarget[i] = TextureFactory::CreateRenderTarget(DXGI_FORMAT_R8G8B8A8_UNORM, blurTexsize[i][0], blurTexsize[i][1]);
+		//m_ppRenderTarget[i] = TextureFactory::CreateRenderTarget(DXGI_FORMAT_R8G8B8A8_UNORM, blurTexsize[i][0], blurTexsize[i][1]);
 		m_ppBlurTexture[i] = TextureFactory::CreateRenderTarget(DXGI_FORMAT_R8G8B8A8_UNORM, blurTexsize[i][0], blurTexsize[i][1]);
 	}
 

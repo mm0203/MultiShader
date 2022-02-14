@@ -16,6 +16,8 @@ const char* PixelShaderFile[MAX_PIXEL_SHADER] =
 	"Assets/DeferredPS.cso",
 	"Assets/DeferredWritePS.cso",
 	"Assets/DepthFadePS.cso",
+	"Assets/DepthOfViewPS.cso",
+	"Assets/DepthOfViewWritePS.cso",
 	"Assets/DepthShadowPS.cso",
 	"Assets/DepthWritePS.cso",
 	"Assets/ObjectColorPS.cso",
