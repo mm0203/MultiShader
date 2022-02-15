@@ -1,30 +1,166 @@
-﻿  GGBlur.cpp
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,25): warning C4838: 'float' から 'UINT' への変換には縮小変換が必要です
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,25): warning C4244: '初期化中': 'float' から 'UINT' への変換です。データが失われる可能性があります。
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,47): warning C4838: 'double' から 'UINT' への変換には縮小変換が必要です
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,47): warning C4244: '初期化中': 'double' から 'UINT' への変換です。データが失われる可能性があります。
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,60): warning C4838: 'double' から 'UINT' への変換には縮小変換が必要です
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGBlur.cpp(66,60): warning C4244: '初期化中': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+﻿  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\BlurPS.cso
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Shader\DeferredPS.hlsl(72,2-23): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DeferredPS.cso
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Shader\DeferredWritePS.hlsl(21,11-34): warning X3576: semantics in type overridden by variable/function or enclosing type
+  
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DeferredWritePS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DeferredWriteVS.cso
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Shader\DepthFadePS.hlsl(34,8-41): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthFadePS.cso
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Shader\DepthOfViewPS.hlsl(50,2): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthOfViewPS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthOfViewWritePS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthShadowPS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthShadowVS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthWritePS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthWriteVS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\ObjectColorPS.cso
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Shader\PointLightPS.hlsl(40,16-39): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\PointLightPS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\RenderShadowPS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\SamplePS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\SampleVS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\ScreenVS.cso
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Shader\SpotLightPS.hlsl(31,22-45): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\SpotLightPS.cso
+  compilation object save succeeded; see C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\WorldPosVS.cso
+  GGBlur.cpp
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGBlur.cpp(66,25): warning C4838: 'float' から 'UINT' への変換には縮小変換が必要です
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGBlur.cpp(66,25): warning C4244: '初期化中': 'float' から 'UINT' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGBlur.cpp(66,47): warning C4838: 'double' から 'UINT' への変換には縮小変換が必要です
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGBlur.cpp(66,47): warning C4244: '初期化中': 'double' から 'UINT' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGBlur.cpp(66,60): warning C4838: 'double' から 'UINT' への変換には縮小変換が必要です
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGBlur.cpp(66,60): warning C4244: '初期化中': 'double' から 'UINT' への変換です。データが失われる可能性があります。
   GGDeferred.cpp
   GGDepthFade.cpp
+  GGDepthOfView.cpp
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGDepthOfView.cpp(37,69): warning C4838: 'float' から 'UINT' への変換には縮小変換が必要です
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGDepthOfView.cpp(37,69): warning C4244: '初期化中': 'float' から 'UINT' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGDepthOfView.cpp(37,93): warning C4838: 'float' から 'UINT' への変換には縮小変換が必要です
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGDepthOfView.cpp(37,93): warning C4244: '初期化中': 'float' から 'UINT' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGDepthOfView.cpp(37,108): warning C4838: 'float' から 'UINT' への変換には縮小変換が必要です
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGDepthOfView.cpp(37,108): warning C4244: '初期化中': 'float' から 'UINT' への変換です。データが失われる可能性があります。
   GGDepthShadow.cpp
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGDepthShadow.cpp(30,69): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGDepthShadow.cpp(30,45): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGDepthShadow.cpp(30,69): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGDepthShadow.cpp(30,45): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
   GGLevelMain.cpp
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(20,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(158,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(176,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(176,77): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(177,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(177,78): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(178,55): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(178,93): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(179,55): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\App\GG31\GGLevelMain.cpp(179,94): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGLevelMain.cpp(21,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGLevelMain.cpp(161,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGLevelMain.cpp(179,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGLevelMain.cpp(179,77): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGLevelMain.cpp(180,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGLevelMain.cpp(180,78): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGLevelMain.cpp(181,55): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGLevelMain.cpp(181,93): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGLevelMain.cpp(182,55): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\GG31\GGLevelMain.cpp(182,94): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
   GGLight.cpp
+  GGLightCamera.cpp
   GGPointLight.cpp
   GGSpotLight.cpp
   Main.cpp
+  ShaderScene.cpp
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\ShaderScene.cpp(222,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\ShaderScene.cpp(222,77): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\ShaderScene.cpp(223,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\ShaderScene.cpp(223,78): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\ShaderScene.cpp(224,55): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\ShaderScene.cpp(224,93): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\ShaderScene.cpp(225,55): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\ShaderScene.cpp(225,94): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  TangentModel.cpp
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\TangentModel.cpp(144,90): warning C4244: '引数': 'LONG' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\TangentModel.cpp(144,78): warning C4244: '引数': 'LONG' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\TangentModel.cpp(145,89): warning C4244: '引数': 'LONG' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\App\TangentModel.cpp(145,77): warning C4244: '引数': 'LONG' から 'float' への変換です。データが失われる可能性があります。
   ShaderList.cpp
+  Startup.cpp
+  Camera2D.cpp
+  Camera.cpp
+  CameraDebug.cpp
+  CameraManager.cpp
+  Collision.cpp
   コードを生成中...
-  DirectXProject.vcxproj -> C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\x64\Debug\DirectXProject.exe
+  コンパイル中...
+  Debug.cpp
+  Geometory.cpp
+  Log.cpp
+  Manipulator.cpp
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Debug\Manipulator.cpp(201,79): warning C4244: '引数': 'LONG' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Debug\Manipulator.cpp(201,70): warning C4244: '引数': 'LONG' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Debug\Manipulator.cpp(202,77): warning C4244: '引数': 'LONG' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Debug\Manipulator.cpp(202,68): warning C4244: '引数': 'LONG' から 'float' への変換です。データが失われる可能性があります。
+  Menu.cpp
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Debug\Menu.cpp(303,55): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Text.h(97,12): warning C4244: '引数': 'T' から '_Elem' への変換です。データが失われる可能性があります。
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              _Elem=char
+          ]
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Text.h(89): message : コンパイル対象の関数 テンプレート インスタンス化 'void Text::Parse<T,>(std::string &,const char *,T)' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ]
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Text.h(76): message : コンパイル対象の関数 テンプレート インスタンス化 'void Text::Parse<std::string,T>(std::string &,const char *,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,T)' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ]
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Debug\Menu.cpp(144): message : コンパイル対象の関数 テンプレート インスタンス化 'void Text::Print<std::string&,T&>(const char *,std::string &,T &)' のリファレンスを確認してください
+          with
+          [
+              T=float
+          ]
+  PrintScreen.cpp
+  FBXLoadAnimation.cpp
+  FBXLoadBone.cpp
+  FBXLoader.cpp
+  FBXLoadMaterial.cpp
+  FBXLoadMesh.cpp
+  BlendState.cpp
+  DepthStencilState.cpp
+  DirectX.cpp
+  Graphics.cpp
+  DXBuffer.cpp
+  Font.cpp
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Font.cpp(38,68): warning C4244: '引数': 'unsigned __int64' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Font.cpp(114,13): warning C4244: '初期化中': '__int64' から 'UINT' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Font.cpp(150,43): warning C4244: '=': 'WORD' から 'char' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Font.cpp(180,40): warning C4244: '=': 'UINT' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Font.cpp(207,31): warning C4146: 符号付きの値を代入する変数は、符号付き型にキャストしなければなりません。
+  SamplerState.cpp
+  Shader.cpp
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Shader.cpp(23,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Shader.cpp(61,65): warning C4244: '引数': 'SIZE_T' から 'UINT' への変換です。データが失われる可能性があります。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Shader.cpp(147,19): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  Text.cpp
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Graphics\Text.cpp(96,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  コードを生成中...
+  コンパイル中...
+  Input.cpp
+  Math.cpp
+  SampleScene.cpp
+  SceneBase.cpp
+  SceneManager.cpp
+  DepthStencil.cpp
+  RenderTarget.cpp
+  Texture.cpp
+  TextureFactory.cpp
+  TextureFilter.cpp
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Texture\TextureFilter.cpp(37,38): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Texture\TextureFilter.cpp(39,39): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Texture\TextureFilter.cpp(53,59): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\System\Texture\TextureFilter.cpp(61,59): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+  TextureFilterSDF.cpp
+  コードを生成中...
+  DirectXProject.vcxproj -> C:\Users\skazz\Desktop\Sc\GG31\MultiShader\x64\Debug\DirectXProject.exe

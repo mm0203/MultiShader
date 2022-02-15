@@ -2,60 +2,66 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\x64\Debug\DirectXProject.exe</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\x64\Debug\DirectXProject.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\BlurPS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\BlurPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\DeferredPS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DeferredPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\DeferredWritePS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DeferredWritePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\DeferredWriteVS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DeferredWriteVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\DepthFadePS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthFadePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\DepthShadowPS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthOfViewPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\DepthShadowVS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthOfViewWritePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\DepthWritePS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthShadowPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\DepthWriteVS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthShadowVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\ObjectColorPS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthWritePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\PointLightPS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\DepthWriteVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\RenderShadowPS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\ObjectColorPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\SamplePS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\PointLightPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\SampleVS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\RenderShadowPS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\ScreenVS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\SamplePS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\SpotLightPS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\SampleVS.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\後期\04_DXProject_Blur\DirectXProject\Assets\WorldPosVS.cso</FullPath>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\ScreenVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\SpotLightPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\skazz\Desktop\Sc\GG31\MultiShader\DirectXProject\Assets\WorldPosVS.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />

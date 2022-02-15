@@ -171,6 +171,7 @@
     <ClCompile Include="App\GG31\GGBlur.cpp" />
     <ClCompile Include="App\GG31\GGDeferred.cpp" />
     <ClCompile Include="App\GG31\GGDepthFade.cpp" />
+    <ClCompile Include="App\GG31\GGDepthOfView.cpp" />
     <ClCompile Include="App\GG31\GGDepthShadow.cpp" />
     <ClCompile Include="App\GG31\GGLevelMain.cpp" />
     <ClCompile Include="App\GG31\GGLight.cpp" />
@@ -223,6 +224,7 @@
     <ClInclude Include="App\GG31\GGBlur.h" />
     <ClInclude Include="App\GG31\GGDeferred.h" />
     <ClInclude Include="App\GG31\GGDepthFade.h" />
+    <ClInclude Include="App\GG31\GGDepthOfView.h" />
     <ClInclude Include="App\GG31\GGDepthShadow.h" />
     <ClInclude Include="App\GG31\GGLevelMain.h" />
     <ClInclude Include="App\GG31\GGLight.h" />
@@ -287,6 +289,12 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
     </FxCompile>
     <FxCompile Include="Shader\DepthFadePS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthOfViewPS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shader\DepthOfViewWritePS.hlsl">
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
     </FxCompile>
     <FxCompile Include="Shader\DepthShadowPS.hlsl">
