@@ -13,6 +13,7 @@
 #include <App/GG31/GGDeferred.h>
 #include <App/GG31/GGBlur.h>
 #include <App/GG31/GGDepthOfView.h>
+#include <App/GG31/GGAlphaDither.h>
 
 HRESULT GGLevelMain::Load()
 {
@@ -34,6 +35,7 @@ HRESULT GGLevelMain::Load()
 	table.headers.push_back("Deferred");
 	table.headers.push_back("Blur");
 	table.headers.push_back("DepthOfView");
+	table.headers.push_back("AlphaDither");
 	table.no = sceneNo;
 	auto changeFunc = []()
 	{
@@ -47,6 +49,7 @@ HRESULT GGLevelMain::Load()
 		case 4: SCENE->LoadSub<GGDeferred>(); break;
 		case 5: SCENE->LoadSub<GGBlur>(); break;
 		case 6: SCENE->LoadSub<GGDepthOfView>(); break;
+		case 7: SCENE->LoadSub<GGAlphaDither>(); break;
 		}
 	};
 	MENU->Registry("Scene/Kind", table);

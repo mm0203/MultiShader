@@ -5,6 +5,7 @@
 
 enum VertexShaderKind
 {
+	ALPHA_DITHER_VS,
 	DEFERRED_WRITE_VS,
 	DEPTH_SHADOW_VS,
 	DEPTH_WRITE_VS,
@@ -15,6 +16,7 @@ enum VertexShaderKind
 };
 enum PixelShaderKind
 {
+	ALPHA_DITHER_PS,
 	BLUR_PS,
 	DEFERRED_PS,
 	DEFERRED_WRITE_PS,

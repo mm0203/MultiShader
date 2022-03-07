@@ -3,6 +3,7 @@
 
 const char* VertexShaderFile[MAX_VERTEX_SHADER] =
 {
+	"Assets/AlphaDitherVS.cso",
 	"Assets/DeferredWriteVS.cso",
 	"Assets/DepthShadowVS.cso",
 	"Assets/DepthWriteVS.cso",
@@ -12,6 +13,7 @@ const char* VertexShaderFile[MAX_VERTEX_SHADER] =
 };
 const char* PixelShaderFile[MAX_PIXEL_SHADER] =
 {
+	"Assets/AlphaDitherPS.cso",
 	"Assets/BlurPS.cso",
 	"Assets/DeferredPS.cso",
 	"Assets/DeferredWritePS.cso",
